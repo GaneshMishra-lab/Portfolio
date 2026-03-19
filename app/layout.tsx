@@ -35,8 +35,10 @@ export default function RootLayout({
       lang="en"
       className={`${playfairDisplay.variable} ${libreFranklin.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
-      <body className="min-h-full font-sans text-moonlit selection:bg-forest-glow/30 selection:text-moonlit">
-        {children}
+      <body className="relative min-h-full font-sans text-moonlit selection:bg-forest-glow/30 selection:text-moonlit">
+        <div aria-hidden className="pointer-events-none fixed inset-0 -z-20 bg-[url('/forest.jpg')] bg-cover bg-center bg-no-repeat" />
+        <div aria-hidden className="pointer-events-none fixed inset-0 -z-10 bg-gradient-to-b from-[#041e16]/80 via-[#06281e]/72 to-[#03140f]/88" />
+        <div className="relative z-10">{children}</div>
       </body>
     </html>
   );

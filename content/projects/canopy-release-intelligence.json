@@ -1,0 +1,17 @@
+{
+  "id": "jsm-jewellery-management",
+  "title": "JSM - Jewellery Shop Management Desktop Application",
+  "description": "A desktop operations system for inventory, billing, and workflow management in jewellery retail environments.",
+  "stack": ["ElectronJS", "Vite", "Sequelize", "SQLite3"],
+  "metric": {
+    "label": "Operational workflows automated",
+    "value": "3 core flows"
+  },
+  "featured": true,
+  "story": {
+    "problem": "Retail operations needed a reliable desktop tool to manage inventory, billing, and cross-table updates without data inconsistency.",
+    "approach": "I designed normalized data models and modular APIs so critical business operations remained accurate and maintainable.",
+    "architecture": "Implemented a SQLite-backed relational schema with Sequelize transaction handling, exposed through modular services, and delivered through an Electron + Vite desktop interface.",
+    "results": "The application provided a practical, workflow-focused management layer that improved day-to-day retail operations."
+  }
+}

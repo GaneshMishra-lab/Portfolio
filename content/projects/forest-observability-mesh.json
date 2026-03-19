@@ -1,0 +1,17 @@
+{
+  "id": "weworktogether-web3-platform",
+  "title": "WeWorkTogether - Web3 Cross-Border Freelance Platform",
+  "description": "A secure freelance collaboration platform with AI-assisted milestone planning and automated GitHub workflow orchestration.",
+  "stack": ["Next.js", "TypeScript", "Prisma", "SQLite", "Solidity", "Foundry", "Razorpay", "GitHub API", "Groq AI"],
+  "metric": {
+    "label": "Manual project breakdown time",
+    "value": "-60%"
+  },
+  "featured": true,
+  "story": {
+    "problem": "Freelance collaboration across borders required manual project planning, fragmented onboarding, and weak execution visibility.",
+    "approach": "I integrated AI-assisted planning with automated repository workflows to reduce setup friction and speed up delivery.",
+    "architecture": "Built with Next.js App Router and Prisma, secured with JWT, bcrypt, and RBAC, then connected to GitHub APIs and webhooks for repo creation, onboarding, and commit tracking.",
+    "results": "Teams could move from idea to structured execution much faster, with project planning time reduced by 60%."
+  }
+}

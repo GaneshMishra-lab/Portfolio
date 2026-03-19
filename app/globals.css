@@ -94,11 +94,25 @@
   }
 }
 
+@keyframes veil-shift {
+  from {
+    transform: translateY(0);
+    opacity: 0.45;
+  }
+  to {
+    transform: translateY(-10%);
+    opacity: 0.75;
+  }
+}
+
 body {
   background:
-    radial-gradient(circle at 10% 8%, rgba(46, 204, 113, 0.1), transparent 24%),
-    radial-gradient(circle at 84% 12%, rgba(20, 90, 50, 0.38), transparent 32%),
-    linear-gradient(180deg, #0b3d2e 0%, #093125 46%, #06281e 100%);
+    linear-gradient(180deg, rgba(4, 30, 22, 0.88) 0%, rgba(6, 40, 30, 0.78) 45%, rgba(3, 20, 15, 0.9) 100%),
+    url("/forest.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--foreground);
   font-family: var(--font-libre-franklin), "Segoe UI", sans-serif;
   letter-spacing: 0.015em;
@@ -225,6 +239,18 @@ h6 {
 
   .float-depth-3 {
     transform: translateY(calc(var(--scroll-depth, 0px) * 0.24));
+  }
+
+  .parallax-layer {
+    transform: translate3d(0, calc(var(--scroll-depth, 0px) * var(--layer-speed, 0.1)), 0);
+    will-change: transform;
+  }
+
+  .section-veil {
+    background:
+      linear-gradient(180deg, rgba(6, 40, 30, 0) 0%, rgba(6, 40, 30, 0.7) 48%, rgba(6, 40, 30, 0) 100%),
+      radial-gradient(circle at 50% 50%, rgba(46, 204, 113, 0.12), rgba(46, 204, 113, 0) 64%);
+    animation: veil-shift 14s ease-in-out infinite alternate;
   }
 }
 

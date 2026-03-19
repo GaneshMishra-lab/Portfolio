@@ -1,0 +1,64 @@
+{
+  "name": "Ganesh Mishra",
+  "role": "Curious and systems-oriented developer building full-stack products and scalable architectures",
+  "bio": "I enjoy turning complex ideas into production-ready systems. My work combines structured backend design, thoughtful frontend experience, and practical deployment workflows so products can grow reliably in real-world conditions.",
+  "focusAreas": [
+    "Full-stack product engineering",
+    "Backend architecture and RBAC design",
+    "System reliability and deployment workflows",
+    "AI-assisted developer tooling"
+  ],
+  "contacts": {
+    "email": "29.ganesh.mishra@gmail.com",
+    "phone": "7972320994",
+    "linkedin": "https://linkedin.com/in/ganesh-mishra1",
+    "github": "https://github.com/GaneshMishra-lab"
+  },
+  "education": [
+    {
+      "title": "Bachelor of Technology in Information Technology",
+      "institute": "Dwarkadas J. Sanghvi College of Engineering",
+      "period": "2023 - 2027",
+      "score": "CGPA: 9.33 / 10"
+    },
+    {
+      "title": "Higher Secondary Certificate",
+      "institute": "Expert's International High School and Junior College",
+      "period": "2021 - 2023",
+      "score": "Percentage: 87.33%"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Development Intern",
+      "company": "MeeraAI Tech Solutions LLP",
+      "period": "Dec 2025 - Present",
+      "highlights": [
+        "Built Fitpad from scratch using Next.js and Express.js",
+        "Designed REST APIs with MVC architecture for users, subscriptions, and transactions",
+        "Implemented role-based access control for users, trainers, and admins",
+        "Modeled relational data with PostgreSQL and deployed using AWS EC2, PM2, and Nginx"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "phase": "Roots",
+      "title": "Academic Foundations",
+      "detail": "Strengthened core programming, algorithms, and database fundamentals while building personal and college projects.",
+      "period": "2021 - 2023"
+    },
+    {
+      "phase": "Trunk",
+      "title": "Product Engineering Growth",
+      "detail": "Built full-stack applications across web, desktop, and mobile environments with clear system boundaries and reusable modules.",
+      "period": "2023 - 2025"
+    },
+    {
+      "phase": "Branches",
+      "title": "Current Internship and Hackathon Momentum",
+      "detail": "Shipping production software, exploring AI-assisted workflows, and competing in high-scale hackathons with measurable outcomes.",
+      "period": "2025 - Present"
+    }
+  ]
+}

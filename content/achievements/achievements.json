@@ -1,0 +1,52 @@
+[
+  {
+    "category": "Research",
+    "items": [
+      {
+        "title": "Top 500 Finalist - Level Supermind Hackathon",
+        "detail": "Ranked in the top 2% from over 23,000 participating teams.",
+        "year": "2026"
+      },
+      {
+        "title": "Academic Excellence in Information Technology",
+        "detail": "Maintaining a 9.33 CGPA while building production-grade projects and hackathon systems.",
+        "year": "2023 - Present"
+      }
+    ]
+  },
+  {
+    "category": "Performance",
+    "items": [
+      {
+        "title": "WeWorkTogether Planning Automation",
+        "detail": "Reduced manual project breakdown time by 60% using AI milestone generation workflows.",
+        "year": "2025"
+      },
+      {
+        "title": "Fitpad Production Deployment",
+        "detail": "Delivered and deployed a complete fitness platform on AWS EC2 with PM2 and Nginx reliability setup.",
+        "year": "2025 - Present"
+      }
+    ]
+  },
+  {
+    "category": "Hackathons",
+    "items": [
+      {
+        "title": "1st Runner-up - ByteCamp Hackathon",
+        "detail": "Ranked 2nd among 40 finalists selected from 1000+ teams.",
+        "year": "2026"
+      },
+      {
+        "title": "2nd Runner-up - S.P.I.T Hackathon",
+        "detail": "Ranked 3rd among 75 finalists selected from 3000+ teams.",
+        "year": "2026"
+      },
+      {
+        "title": "1st Runner-up - Olabsthon",
+        "detail": "National-level hackathon hosted by CDAC with participation from 100+ teams.",
+        "year": "2024"
+      }
+    ]
+  }
+]

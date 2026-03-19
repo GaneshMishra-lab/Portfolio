@@ -1,0 +1,17 @@
+{
+  "id": "raktaveer-blood-donation-app",
+  "title": "Raktaveer - Blood Donation Mobile App",
+  "description": "A mobile-first blood donation platform with donor matching and request tracking workflows.",
+  "stack": ["Flutter", "Express.js", "MongoDB"],
+  "metric": {
+    "label": "Matching logic",
+    "value": "Compatibility + proximity"
+  },
+  "featured": false,
+  "story": {
+    "problem": "Blood request workflows needed faster matching and clearer coordination between donors and recipients.",
+    "approach": "I focused on schema design and matching logic to make donor discovery and request handling more reliable.",
+    "architecture": "Built an Express backend with MongoDB collections for donors and requests, then implemented polling-based notifications and compatibility filters in the mobile flow.",
+    "results": "The platform delivered a structured donor-request pipeline, improving response visibility and coordination speed."
+  }
+}

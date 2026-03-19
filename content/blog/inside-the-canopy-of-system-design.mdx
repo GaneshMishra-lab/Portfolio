@@ -1,0 +1,24 @@
+---
+title: "Inside the Canopy of System Design"
+description: "How I map product goals to layered architecture decisions without losing execution speed."
+date: "2026-03-18"
+tags:
+  - systems
+  - architecture
+  - product-engineering
+published: true
+---
+
+## Why I think in layers
+
+When systems get larger, complexity does not arrive all at once. It grows as small assumptions stack over time. I design with layers so each assumption has a clear boundary.
+
+## The three checks I run
+
+1. **Flow check**: Can data move through the system without hidden coupling?
+2. **Stress check**: What fails first under load or partial outages?
+3. **Learning check**: Will this architecture make future decisions easier, not harder?
+
+## Practical outcome
+
+By mapping user-facing goals to architecture constraints early, teams avoid reactive rewrites and can ship with confidence. I treat architecture as a growth system, not a one-time diagram.
